@@ -5,12 +5,12 @@ import auto from '../images/auto.png';
 
 const Header = () => {
   return (
-    <header className="flex justify-between items-center p-4 bg-blue-100">
+    <header className="flex justify-between items-center p-4 bg-[#B6D4F0]">
       <div className="container flex items-center justify-between ml-auto mr-auto">
         <div className="logo">
           <img src={logo} alt="Таграс Логотип" className="max-h-89px max-w-82px" />
         </div>
-        <nav className="space-x-4">
+        <nav className="space-x-[100px]">
           <a href="/" className="text-[#005C62] hover:underline text-xl">Главная</a>
           <a href="/news" className="text-[#005C62] hover:underline text-xl">Новости</a>
         </nav>

@@ -10,11 +10,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@pbe/react-yandex-maps": "^1.2.5",
+    "@react-google-maps/api": "^2.20.3",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "google-map-react": "^2.2.1",
+    "lucide-react": "^0.453.0",
     "react": "^18.3.1",
-    "react-confetti": "^6.1.0",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.27.0",
-    "react-use": "^17.5.1"
+    "react-use": "^17.5.1",
+    "react-yandex-maps": "^4.6.0",
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@eslint/js": "^9.11.1",

@@ -1,13 +1,16 @@
 // PersonalCabinet.js
 import React from 'react';
-import Profile from './Profile';
-import ScheduleTable from './ScheduleTable';
+import Profile from './forCabinet/Profile';
+import ScheduleTable from './forCabinet/ScheduleTable';
+import Header from './Header';
+import Footer from './Footer';
 
 const PersonalCabinet = () => {
   return (
-    <div className="min-h-screen bg-gray-50 p-8">
+    <div className="min-h-screen bg-gray-50">
+      <Header/>
       <Profile />
-      <ScheduleTable />
+      <Footer/>
     </div>
   );
 };
