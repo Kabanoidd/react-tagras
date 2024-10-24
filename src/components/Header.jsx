@@ -2,6 +2,7 @@
 import React from 'react';
 import logo from '../images/logo.png';
 import auto from '../images/auto.png';
+import { Navigate } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -12,7 +13,8 @@ const Header = () => {
         </div>
         <nav className="space-x-[100px]">
           <a href="/" className="text-[#005C62] hover:underline text-xl">Главная</a>
-          <a href="/news" className="text-[#005C62] hover:underline text-xl">Новости</a>
+          <a href="/news" className="text-[#005C62] hover:underline text-xl" >Новости</a>
+          <button></button>
         </nav>
         <a href="/login" className="text-[#005C62] hover:underline flex items-center gap-3 text-xl"><img src={auto} alt="Вход" className='max-w-[40px] max-h-[40px]' />Вход</a>
       </div>
